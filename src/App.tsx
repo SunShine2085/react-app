@@ -1,5 +1,6 @@
 import ListGroup from './Components/ListGroup';
 import Alert from "./Components/Alert";
+import Button from "./Components/Button";
 
 function App(){
   let items = [
@@ -18,8 +19,10 @@ function App(){
     <Alert>
       Hello <span>World</span>
     </Alert> 
+    <Button color="secondary" onClick={() => console.log('Clicked')}>My Button</Button>
        </div>
   );
+}
   export default App; 
 
  
